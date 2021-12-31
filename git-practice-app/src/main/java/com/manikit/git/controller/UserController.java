@@ -8,6 +8,7 @@ import com.manikit.git.entities.User;
 @RestController
 public class UserController {
 	
+	// getting all users
 	@GetMapping("/user")
 	public User getUser() {
 		User user = new User();
