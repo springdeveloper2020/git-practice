@@ -28,5 +28,9 @@ public class UserController {
 		System.out.println(newUser);
 	return "user created..!";
 	}
+	
+	public String deleteUser() {
+		return"user deleted..!";
+	}
 
 }
