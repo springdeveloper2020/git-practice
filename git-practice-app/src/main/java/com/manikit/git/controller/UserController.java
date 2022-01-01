@@ -32,5 +32,9 @@ public class UserController {
 	public String deleteUser() {
 		return"user deleted..!";
 	}
+	
+	
+	
+	
 
 }
